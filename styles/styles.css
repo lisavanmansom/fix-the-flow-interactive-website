@@ -431,6 +431,7 @@ input {
     display: flex;
     flex-direction: column;
     gap: 1.5em;
+    line-height: 1.5em;
     padding-top: 1.5em;
 }
 .saved-by-user article {
@@ -456,6 +457,11 @@ input {
     color: var(--clr-secundair-50);
     transition: color .25s cubic-bezier(.23,1,.32,1);
 }
+.saved-by-user span {
+    display: flex;
+    flex-direction: row;
+}
+
 .saved-by-user .adres {
     padding-left: .7em;
 }
