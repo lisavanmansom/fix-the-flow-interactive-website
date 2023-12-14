@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Bewaarde huizen lijst </title>
+        <link rel="stylesheet" href="styles/stylesprofiel.css">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="hamburger"> <span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+                <a class="nav-branding" href="https://www.funda.nl"><img src="https://assets.fstatic.nl/master-73814/assets/components/logo/fundawonen-logo.svg" alt="funda-logo" height="36"></a>
+                <ul class="nav-menu">
+                <li class="nav-item"><a href="https://www.funda.nl/zoeken/koop?selected_area=%5B%22nl%22%5D" class="nav-link"> Kopen</a></li>
+                <li class="nav-item"><a href="https://www.funda.nl/zoeken/huur/?selected_area=%5B%22nl%22%5D" class="nav-link"> Huren</a></li>
+                <li class="nav-item"><a href="https://www.funda.nl/producten-en-diensten/verkoop-je-huis-op-funda/" class="nav-link"> Verkopen</a></li>
+            </ul>
+            <svg class="heart" xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" role="presentation" viewBox="0 0 48 48"><path d="M39 9.86A10.17 10.17 0 0032 7a9.9 9.9 0 00-6 2 10.1 10.1 0 00-2 2 10.1 10.1 0 00-2-2 9.91 9.91 0 00-12 0 9.9 9.9 0 00-4 8c0 15 16 24 18 24s18-9 18-24a10 10 0 00-3-7.14zm-15 28a29.61 29.61 0 01-12.72-12.1A18.77 18.77 0 019 17a7 7 0 0113.41-2.81c.06.14.11.29.17.44a1.49 1.49 0 002.82 0c.05-.15.11-.3.17-.44A7 7 0 0139 17a18.77 18.77 0 01-2.28 8.81A29.61 29.61 0 0124 37.91z"></path></svg>
+                <a href="https://www.funda.nl/account/"><svg class="account-human" xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" role="presentation" viewBox="0 0 48 48"><path d="M24 9a8 8 0 108 8 8 8 0 00-8-8zm0 13a5 5 0 115-5 5 5 0 01-5 5z"></path><path d="M24 3a21 21 0 1021 21A21 21 0 0024 3zm-9 36.56V35c0-2.45 2.12-4.48 4.91-4.91A7.16 7.16 0 0121 30h6a7.16 7.16 0 011.09.09C30.88 30.52 33 32.55 33 35v4.56a17.85 17.85 0 01-18 0zm21-2.19V34.5a1.48 1.48 0 00-.06-.4c-.5-4-4.31-7.1-8.94-7.1h-6c-4.63 0-8.44 3.11-8.94 7.1a1.48 1.48 0 00-.06.4v2.88a18 18 0 1124 0z"></path></svg></a>
+            </nav>  
+        </header>
+
+        <main>
+           
+            <article class="colour-modes">
+                <button class="theme-toggle">
+                    <svg height="25" viewBox="0 0 24 24" fill="var(--clr-primair-50)" xmlns="http://www.w3.org/2000/svg"><path d="M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12Z" fill="var(--clr-orange)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C12.4142 1.25 12.75 1.58579 12.75 2V4C12.75 4.41421 12.4142 4.75 12 4.75C11.5858 4.75 11.25 4.41421 11.25 4V2C11.25 1.58579 11.5858 1.25 12 1.25ZM3.66865 3.71609C3.94815 3.41039 4.42255 3.38915 4.72825 3.66865L6.95026 5.70024C7.25596 5.97974 7.2772 6.45413 6.9977 6.75983C6.7182 7.06553 6.2438 7.08677 5.9381 6.80727L3.71609 4.77569C3.41039 4.49619 3.38915 4.02179 3.66865 3.71609ZM20.3314 3.71609C20.6109 4.02179 20.5896 4.49619 20.2839 4.77569L18.0619 6.80727C17.7562 7.08677 17.2818 7.06553 17.0023 6.75983C16.7228 6.45413 16.744 5.97974 17.0497 5.70024L19.2718 3.66865C19.5775 3.38915 20.0518 3.41039 20.3314 3.71609ZM1.25 12C1.25 11.5858 1.58579 11.25 2 11.25H4C4.41421 11.25 4.75 11.5858 4.75 12C4.75 12.4142 4.41421 12.75 4 12.75H2C1.58579 12.75 1.25 12.4142 1.25 12ZM19.25 12C19.25 11.5858 19.5858 11.25 20 11.25H22C22.4142 11.25 22.75 11.5858 22.75 12C22.75 12.4142 22.4142 12.75 22 12.75H20C19.5858 12.75 19.25 12.4142 19.25 12ZM17.0255 17.0252C17.3184 16.7323 17.7933 16.7323 18.0862 17.0252L20.3082 19.2475C20.6011 19.5404 20.601 20.0153 20.3081 20.3082C20.0152 20.6011 19.5403 20.601 19.2475 20.3081L17.0255 18.0858C16.7326 17.7929 16.7326 17.3181 17.0255 17.0252ZM6.97467 17.0253C7.26756 17.3182 7.26756 17.7931 6.97467 18.086L4.75244 20.3082C4.45955 20.6011 3.98468 20.6011 3.69178 20.3082C3.39889 20.0153 3.39889 19.5404 3.69178 19.2476L5.91401 17.0253C6.2069 16.7324 6.68177 16.7324 6.97467 17.0253ZM12 19.25C12.4142 19.25 12.75 19.5858 12.75 20V22C12.75 22.4142 12.4142 22.75 12 22.75C11.5858 22.75 11.25 22.4142 11.25 22V20C11.25 19.5858 11.5858 19.25 12 19.25Z" fill="var(--clr-orange)"/></svg>
+                </button>
+                <button class="theme-toggle-contrast">
+                    <svg height="25" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path fill="var(--clr-primair-50)" fill-rule="evenodd" d="M68,121 C72.9705627,121 77,116.970563 77,112 C77,107.029437 72.9705627,103 68,103 C63.0294373,103 59,107.029437 59,112 C59,116.970563 63.0294373,121 68,121 Z M68,119.8 C72.2313475,119.8 75.8,116.307821 75.8,112 C75.8,108.076069 72.6281738,104.2 68,104.2 L68,119.8 Z" transform="matrix(-1 0 0 1 77 -103)"/></svg>
+                </button>
+            </article>
+
+            <a href="index2.html">
+                <svg class="back-icon" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    width="36" height="30" viewBox="0 0 512.000000 512.000000"
+                    preserveAspectRatio="xMidYMid meet">
+                    <metadata> Created by potrace 1.16, written by Peter Selinger 2001-2019 </metadata>
+                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="var(--clr-primair-50)" stroke="none">
+                        <path d="M2391 3364 c-435 -438 -791 -800 -791 -804 0 -12 1581 -1600 1594 -1600 14 0 326 311 326 325 0 6 -285 295 -632 642 l-633 633 633 633 c347 347 632 637 632 642 0 14 -313 325 -327 325 -6 0 -367 -358 -802 -796z"/>
+                    </g>
+                </svg>
+            </a>
+
+            <svg class="edit-icon" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                width="36" height="30" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                <metadata> Created by potrace 1.16, written by Peter Selinger 2001-2019 </metadata>
+                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="var(--clr-primair-50)" stroke="none">
+                    <path d="M3605 5109 c-11 -6 -827 -817 -1812 -1803 l-1793 -1791 0 -705 c0 -686 1 -706 20 -738 11 -18 34 -41 52 -52 32 -19 52 -20 726 -20 583 0 697 2 720 14 33 18 3575 3562 3591 3593 14 28 14 118 0 146 -16 31 -1318 1335 -1351 1353 -32 16 -124 18 -153 3z m600 -909 l520 -520 -203 -202 -202 -203 -522 522 -523 523 200 200 c110 110 202 200 205 200 3 0 239 -234 525 -520z m-640 -640 l520 -520 -1323 -1323 -1322 -1322 -522 523 -523 522 1320 1320 c726 726 1322 1320 1325 1320 3 0 239 -234 525 -520z m-2880 -2880 l360 -360 -363 0 -362 0 0 360 c0 198 1 360 3 360 1 0 164 -162 362 -360z"/>
+                </g>
+            </svg>
+            
+
+            <h1> Hallo Willem, </h1>
+            <span class="borderbottom"></span>
+           
+                <div class="container">
+                    <div class="block">
+                        <a href="https://www.funda.nl/account/persoonlijke-gegevens">
+                            <h2><svg class="profiel-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--clr-secundair-50)" role="presentation" viewBox="0 0 48 48" class="mr-2"><path d="M24 9a8 8 0 108 8 8 8 0 00-8-8zm0 13a5 5 0 115-5 5 5 0 01-5 5z"></path><path d="M24 3a21 21 0 1021 21A21 21 0 0024 3zm-9 36.56V35c0-2.45 2.12-4.48 4.91-4.91A7.16 7.16 0 0121 30h6a7.16 7.16 0 011.09.09C30.88 30.52 33 32.55 33 35v4.56a17.85 17.85 0 01-18 0zm21-2.19V34.5a1.48 1.48 0 00-.06-.4c-.5-4-4.31-7.1-8.94-7.1h-6c-4.63 0-8.44 3.11-8.94 7.1a1.48 1.48 0 00-.06.4v2.88a18 18 0 1124 0z"></path></svg>Persoonlijke gegevens</h2>
+                            <p>Beheer je naam, adres en andere persoonlijke informatie.</p>
+                        </a>
+                    </div>
+
+                    <div class="block">
+                        <a href="https://www.funda.nl/account/inlog-gegevens">
+                            <h2><svg class="profiel-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--clr-secundair-50)" role="presentation" viewBox="0 0 48 48" class="mr-2"><path d="M40 19.51A1.5 1.5 0 0038.5 18H34v-4a10 10 0 10-20 0v4H9.5A1.5 1.5 0 008 19.5v23A1.5 1.5 0 009.5 44h29a1.5 1.5 0 001.5-1.5zm-23-5.58A7 7 0 0131 14v4H17v-4.07zM34 21h3v20H11V21h23z"></path></svg>Inloggegevens</h2>
+                            <p>Beheer het e-mailadres, wachtwoord en aangesloten social media-accounts.</p>
+                        </a>
+                    </div>
+
+                    <div class="block">
+                        <a href="https://www.funda.nl/account/email-instellingen">
+                            <h2><svg class="profiel-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--clr-secundair-50)" role="presentation" viewBox="0 0 48 48" class="mr-2"><path d="M42.5 10h-37A1.5 1.5 0 004 11.5v25A1.5 1.5 0 005.5 38h37a1.5 1.5 0 001.5-1.5v-25a1.5 1.5 0 00-1.5-1.5zM23.12 26.22a1.5 1.5 0 001.76 0L41 14.57V35H7V14.57zM9.95 13h28.1L24 23.15z"></path></svg> E-mailinstellingen</h2>
+                            <p>Beheer waarover en hoe vaak je e-mails ontvangt.</p>
+                        </a>
+                    </div>
+
+                    <div class="block">
+                        <a href="index.html">
+                            <h2><svg class="profiel-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--clr-secundair-50)" role="presentation" viewBox="0 0 48 48" class="mr-2"><path d="M39 9.86A10.17 10.17 0 0032 7a9.9 9.9 0 00-6 2 10.1 10.1 0 00-2 2 10.1 10.1 0 00-2-2 9.91 9.91 0 00-12 0 9.9 9.9 0 00-4 8c0 15 16 24 18 24s18-9 18-24a10 10 0 00-3-7.14zm-15 28a29.61 29.61 0 01-12.72-12.1A18.77 18.77 0 019 17a7 7 0 0113.41-2.81c.06.14.11.29.17.44a1.49 1.49 0 002.82 0c.05-.15.11-.3.17-.44A7 7 0 0139 17a18.77 18.77 0 01-2.28 8.81A29.61 29.61 0 0124 37.91z"></path></svg>Bewaarde huizen</h2>
+                            <p>Bekijk en beheer je bewaarde woningen.</p>
+                        </a>
+                    </div>
+
+                <div class="block">
+                    <a href="https://www.funda.nl/zoeken/zoekopdracht/">
+                        <h2><svg class="profiel-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--clr-secundair-50)" role="presentation" viewBox="0 0 48 48" class="mr-2"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 8.5C11.5 7.39543 12.3954 6.5 13.5 6.5H33.5C34.6046 6.5 35.5 7.39543 35.5 8.5V38.9306C35.5 40.6275 33.5197 41.5534 32.2175 40.4653L23.7986 33.4301L14.7349 40.545C13.4225 41.5753 11.5 40.6403 11.5 38.9719V8.5ZM14.5 9.5V36.9156L22.9019 30.3201C23.4591 29.8827 24.2464 29.8947 24.79 30.349L32.5 36.7918V9.5H14.5Z"></path></svg>Bewaarde zoekopdrachten</h2>
+                        <p>Bekijk en beheer je bewaarde zoekopdrachten.</p>
+                    </a>
+                </div>
+                
+                <div class="block">
+                    <a href="https://www.funda.nl/waardecheck/">
+                        <h2><svg class="profiel-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--clr-secundair-50)" role="presentation" viewBox="0 0 48 48" class="mr-2"><path fill-rule="evenodd" d="M42.052 24.6a1.501 1.501 0 01-2.23 2.01l-2.107-2.34-3-3.333-11-12.216-11 12.217-3 3.332-2.1 2.334a1.501 1.501 0 01-2.23-2.008L22.6 5.481c.028-.032.068-.044.098-.074.04-.037.085-.061.125-.093.116-.088.238-.168.368-.218.06-.022.123-.031.186-.046.118-.028.238-.05.36-.05.084.001.164.019.244.034.1.018.2.036.296.074.098.04.19.103.28.166.07.047.14.09.2.15.026.023.06.034.083.06L42.052 24.6zm-7.336-1.663l3 3.332v15.327a1.5 1.5 0 01-1.497 1.5H11.216a1.5 1.5 0 01-1.5-1.5V26.27l3-3.332v17.158h22V22.937zm-9.77-2.841c1.394 0 2.69.412 3.772 1.116l-.63 2.07a4.82 4.82 0 00-3.142-1.161 4.818 4.818 0 00-3.933 2.025h4.276c.565 0 1.028.456 1.028 1.012 0 .557-.463 1.013-1.028 1.013h-5.087c-.033.22-.055.445-.055.675 0 .23.022.454.055.675h5.087c.565 0 1.028.456 1.028 1.012 0 .557-.463 1.013-1.028 1.013h-4.276a4.819 4.819 0 003.933 2.025c1.202 0 2.299-.44 3.142-1.162l.631 2.07a6.888 6.888 0 01-3.773 1.117 6.86 6.86 0 01-6.282-4.05h-.917a1.023 1.023 0 01-1.028-1.012c0-.557.462-1.013 1.028-1.013h.378a6.662 6.662 0 010-1.35h-.378a1.023 1.023 0 01-1.028-1.012c0-.557.462-1.013 1.028-1.013h.917a6.86 6.86 0 016.282-4.05z"></path></svg>Mijn Huis</h2>
+                        <p>Bereken en bewaar de geschatte waarde van je woning.</p>
+                    </a>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <!-- footer, navigatie -->
+            <div class="footer-nav">
+                <div class="diensten">
+                    <h4> Diensten </h4>
+                    <nav>
+                    <ul>
+                        <li><a href="https://www.funda.nl/producten-en-diensten/verkoop-je-huis-op-funda/" class="">Plaats je huis op funda</a></li>
+                        <li><a href="https://www.funda.nl/makelaar-zoeken/" class="appfooter-Makelaar-link">Zoek een NVM-makelaar</a></li>
+                        <li><a href="https://www.funda.nl/koop/bladeren/" class="">Bladeren door aanbod</a></li>
+                        <li><a href="https://www.funda.nl/mijn-huis-toevoegen/" class="waardecheck-trafficdriver">Wat is mijn woning waard?</a></li>
+                    </ul>
+                    </nav>
+                </div>
+
+                <div class="informatie">
+                    <h4> Informatie </h4>
+                    <nav>
+                    <ul> 
+                        <li><a href="https://help.funda.nl/hc/nl/?utm_source=funda&amp;utm_medium=footer" class="" target="_blank">Vraag &amp; antwoord</a></li>
+                        <li><a href="https://www.funda.nl/funda-index/funda-index/" class="">Funda Index</a></li>
+                        <li><a href="https://www.funda.nl//meer-weten/kopen/" class="trafficdriver-footer-hoekoopikeenhuis">Alles over een huis kopen</a></li>
+                        <li><a href="https://www.funda.nl//meer-weten/verkopen/" class="trafficdriver-footer-hoekoopikeenhuis">Verkoop je huis</a></li>
+                        <li><a href="https://www.funda.nl//zoekbetervindmeer/" class="">Hoe zoek ik op funda?</a></li>
+                    </ul>
+                    </nav>
+                </div>
+
+                <div class="makelaars">
+                    <h4> Makelaars </h4>
+                    <nav>
+                    <ul> 
+                        <li><a href="https://www.fundadesk.nl" class="">Funda desk</a></li>
+                        <li><a href="https://www.funda.nl/voormakelaars/verdieping/" class="">Tips, trends &amp; nieuws</a></li>
+                        <li><a href="https://www.funda.nl/voormakelaars/leads/" class="">Leads</a></li>
+                        <li><a href="https://www.funda.nl/voormakelaars/producten/" class="">Producten</a></li>
+                        <li><a href="https://www.funda.nl/voormakelaars/events-meetups/" class="">Events &amp; meetups</a></li>
+                    </ul>  
+                    </nav>
+                </div>
+
+                <div class="over-ons">
+                    <h4> Over ons </h4>
+                    <nav>
+                    <ul>
+                        <li><a href="https://www.funda.nl//over/" class="">Over funda</a></li>
+                        <li><a href="https://www.funda.nl//contact/" class="">Contact</a></li>
+                        <li><a href="https://jobs.funda.nl/l/nl/" class="">Werken bij funda</a></li>
+                        <li><a href="https://www.funda.nl//adverteren/" class="">Adverteren</a></li>
+                        <li><a href="https://www.funda.nl//meer-weten/redactioneel-beleid-funda/" class="">Redactioneel beleid</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- footer socials, copyright, taal -->
+            <div class="footer-2">
+                <ul class="socials">
+                    <li>
+                        <a href="https://www.facebook.com/funda" target="_blank" aria-label="Facebook">
+                            <span data-vue-container="" class="inline ml-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0071B3" role="presentation" viewBox="0 0 48 48" class="inline mr-1 -mt-1"><title>Volg ons op facebook.</title><path d="M19 17.08h-4.23v6.84H19V44h8V23.83h5.62l.6-6.75H27v-3.85c0-1.59.32-2.22 1.86-2.22h4.36V4h-5.57c-6 0-8.7 2.64-8.7 7.69z"></path></svg></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/funda" target="_blank" aria-label="X">
+                            <span data-vue-container="" class="inline ml-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0071B3" role="presentation" viewBox="0 0 48 48" class="inline mr-1 -mt-1"><title>Volg ons op twitter.</title><path d="M 28.570312 20.34375 L 46.441406 0 L 42.210938 0 L 26.683594 17.660156 L 14.292969 0 L 0 0 L 18.742188 26.707031 L 0 48.039062 L 4.234375 48.039062 L 20.617188 29.386719 L 33.707031 48.039062 L 48 48.039062 M 5.761719 3.125 L 12.265625 3.125 L 42.207031 45.066406 L 35.699219 45.066406 "></path></svg></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/funda.nl/" target="_blank" aria-label="Instagram">
+                            <span data-vue-container="" class="inline ml-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0071B3" role="presentation" viewBox="0 0 48 48" class="inline mr-1 -mt-1"><title>Volg ons op instagram.</title><path d="M24 7.61c5.34 0 6 0 8.08.12 5.42.25 8 2.82 8.2 8.2.1 2.11.11 2.74.11 8.08s0 6-.11 8.08c-.25 5.37-2.77 8-8.2 8.2-2.11.1-2.74.12-8.08.12s-6 0-8.08-.12c-5.43-.25-8-2.83-8.2-8.2C7.62 30 7.6 29.34 7.6 24s0-6 .12-8.08c.25-5.38 2.77-8 8.2-8.2 2.08-.09 2.74-.11 8.08-.11zM24 4c-5.43 0-6.11 0-8.24.12-7.27.33-11.31 4.36-11.64 11.63C4 17.89 4 18.57 4 24s0 6.11.12 8.25c.33 7.26 4.36 11.3 11.63 11.63 2.13.1 2.81.12 8.25.12s6.11 0 8.25-.12c7.26-.33 11.3-4.36 11.63-11.63.12-2.14.12-2.82.12-8.25s0-6.11-.12-8.24c-.33-7.26-4.36-11.3-11.63-11.64C30.11 4 29.43 4 24 4zm0 9.73A10.27 10.27 0 1034.27 24 10.27 10.27 0 0024 13.73zm0 16.94A6.67 6.67 0 1130.67 24 6.67 6.67 0 0124 30.67zm10.68-19.74a2.4 2.4 0 102.4 2.4 2.4 2.4 0 00-2.4-2.4z"></path></svg></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/funda" target="_blank" aria-label="YouTube">
+                            <span data-vue-container="" class="inline ml-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0071B3" role="presentation" viewBox="0 0 48 48" class="inline mr-1 -mt-1"><title>Volg ons op youtube.</title><path d="M36.69 9.31c-6-.41-19.38-.41-25.38 0C4.81 9.75 4 13.67 4 24s.81 14.25 7.31 14.69c6 .41 19.38.41 25.38 0C43.19 38.25 44 34.33 44 24s-.81-14.25-7.31-14.69zM19 30.67V17.33L32.33 24z"></path></svg></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/funda" target="_blank" aria-label="LinkedIn">
+                            <span data-vue-container="" class="inline ml-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0071B3" role="presentation" viewBox="0 0 48 48" class="inline mr-1 -mt-1"><path d="M4.8 17.33h8.25V44H4.8z"></path><ellipse cx="8.89" cy="8.92" rx="4.88" ry="4.92"></ellipse><title>Volg ons op linkedin.</title><path d="M34.29 16.52a9.3 9.3 0 00-8 4.4v-3.59h-7.95V44h7.92V30c0-3.75 1.73-6 5-6 3 0 4.49 2.14 4.49 6v14H44V27.12c0-7.12-4.06-10.6-9.71-10.6z"></path></svg></span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="center-footer">
+                    <p class="copyright">© 2001-2023 funda</p>
+                    <ul class="copyright-2">
+                        <li>
+                           <a href="https://www.funda.nl//privacybeleid/"> <span class="bulletpoint">•</span>Privacy</a> 
+                        </li>
+                        <li> 
+                            <a href="https://www.funda.nl//cookiebeleid/"><span class="bulletpoint">•</span>Cookies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.funda.nl//gebruiksvoorwaarden/"><span class="bulletpoint">•</span>Voorwaarden</a>
+                        </li>
+                    </ul>
+                </div>
+                    
+                <form class="switch-language">
+                    <label class="langswitch">Taal</label>
+                    <select data-footer-lang-switch="" id="langSwitch" class="taalswitch">
+                        <option value="en"> English </option>
+                        <option value="nl"> Nederlands </option>
+                    </select>
+                </form>
+            </div>
+        </footer>
+        <script src="./scripts/main.js"></script>
+    </body>
+</html>
