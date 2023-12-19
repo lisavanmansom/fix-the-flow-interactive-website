@@ -496,6 +496,32 @@ input {
     width: 2em;
 }
 
+.breadcrumps {
+    display: flex;
+    gap: 1.5em;
+    flex-direction: column;
+    width: 22em;
+    margin-inline:auto;
+    padding-bottom: 3em;
+}
+
+.breadcrumps-link { 
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.breadcrumps-link a {
+    background-color: var(--clr-block);
+    border-bottom: .3em solid var(--clr-primair-50);
+    padding: 1em;
+    color: var(--clr-contrast-100);
+}
+
+.breadcrumps-link a:hover {
+    background-color: var(--clr-blockhover);
+    transition: 0.4s ease-in;
+}
    /* FOOTER */
 
    footer {
@@ -662,6 +688,9 @@ input {
         gap: 14em;
         width: 34em;
     }
+    .breadcrumps {
+        width: 34em;
+    }
 }
 
 @media (min-width:987px) {
@@ -744,6 +773,9 @@ input {
         padding-left: 4em;
     }
     .bottom-line {
+        width: 58em;
+    }
+    .breadcrumps {
         width: 58em;
     }
     .title-allsavedhouses article {
