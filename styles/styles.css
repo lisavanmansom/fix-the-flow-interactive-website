@@ -360,7 +360,6 @@ input {
     gap: 1.2em;
     flex-direction: column;
     justify-content: center;
-    background-color: ;
     width: 15em;
 }
 
@@ -394,12 +393,22 @@ input {
     position: absolute;
     bottom: 7em;
 }
+
+.inner-modal h3 {
+    padding-left: 3.2em;
+    padding-top: .5em;
+}
+
 /* Styling title all-saved-houses */
 .title-allsavedhouses {
     align-items: center;
     display: flex;
     flex-direction: column;
 }
+.title-allsavedhouses h2 {
+    padding-top: 1em;
+}
+
 .title-allsavedhouses article {
     display: flex;
     flex-direction: row;
